@@ -1,0 +1,77 @@
+/* src/App.css */
+.App {
+    text-align: center;
+  }
+  
+  .App-header {
+    background-color: #282c34;
+    padding: 20px;
+    color: white;
+  }
+  
+  input {
+    padding: 10px;
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    margin: 10px 0;
+  }
+  
+  a {
+    color: #61dafb;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+
+  .single-repo {
+    border: 1px solid #61dafb;
+    padding: 10px;
+    margin: 10px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+
+  .buttons {
+    display: flex;
+  }
+
+  .single-repo button {
+    background-color: #4ac0f7;
+    color: #fff;
+    outline: none;
+    border: none;
+    border-radius: 20px;
+    padding: 5px;
+    width: 120px;
+    margin: 0 10px;
+  }
+
+  .single-repo h4 {
+    font-size: 20px;
+  }
+
+  .single-repo p {
+    font-size: 15px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+  }
+
+  .repo-data {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
